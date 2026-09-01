@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background: slategray;
+  color: white;
+  height: 80px;
+  display: flex;
+
+  padding: 20px 40px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+ul li {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+ul li:hover {
+  color: #2563eb;
+}
+.navbar > div {
+  margin-left: auto;
+}

@@ -1,0 +1,20 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 550px;
+  display: flex;
+  justify-content: space-around;
+}
+.section {
+  width: 30%;
+  text-align: center;
+}
+.footer .section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.footer .section p {
+  font-size: 14px;
+  margin: 5px 0px;
+}
